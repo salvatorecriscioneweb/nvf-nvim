@@ -1,0 +1,13 @@
+{
+  config.vim.keymaps = [
+    {
+      key = "<leader>e";
+      mode = [
+        "n"
+        "x"
+      ];
+      silent = true;
+      action = "<cmd>Neotree<CR>";
+    }
+  ];
+}
