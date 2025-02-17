@@ -1,4 +1,10 @@
 {
+  imports = [
+    ./plugins/which-key.nix
+    ./plugins/lualine.nix
+    ./plugins/fzf-lua.nix
+    ./plugins/lazygit.nix
+  ];
   config.vim = {
     filetree.neo-tree.enable = true;
     enableLuaLoader = true;

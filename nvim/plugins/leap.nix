@@ -1,5 +1,5 @@
 {
-  config.vim = {
-    utility.motion.leap.enable = true;
+  config.vim.utility.motion.leap = {
+    enable = true;
   };
 }
