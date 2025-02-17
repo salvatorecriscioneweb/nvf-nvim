@@ -7,7 +7,7 @@
         "x"
       ];
       silent = true;
-      action = "<cmd>Neotree<CR>";
+      action = "<cmd>NvimTreeToggle<CR>";
     }
   ];
 }

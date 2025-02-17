@@ -1,5 +1,5 @@
 {
   imports = [
-    ./plugins/neo-tree.nix
+    ./plugins/nvim-tree.nix
   ];
 }

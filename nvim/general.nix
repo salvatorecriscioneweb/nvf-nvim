@@ -3,6 +3,9 @@
     filetree.neo-tree.enable = true;
     enableLuaLoader = true;
 
+    formatter.conform-nvim.enable = true;
+
+    languages.enableFormat = true;
     languages.nix = {
       enable = true;
       format.enable = true;
