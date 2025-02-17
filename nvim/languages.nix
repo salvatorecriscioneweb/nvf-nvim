@@ -14,5 +14,9 @@
       format.enable = true;
       elixir-tools.enable = true;
     };
+
+    markdown = {
+      enable = true;
+    };
   };
 }
