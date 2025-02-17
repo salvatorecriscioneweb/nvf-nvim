@@ -1,5 +1,9 @@
 {
-  config.vim.utility.motion.leap = {
-    enable = true;
+  config.vim.utility = {
+    motion = {
+      hop.enable = true;
+      leap.enable = true;
+      precognition.enable = true;
+    };
   };
 }
