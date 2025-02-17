@@ -6,6 +6,8 @@
       mouse = "a";
       shiftwidth = 2;
       tabstop = 2;
+      expandtab = true;
+      smoothscroll = true;
     };
   };
 }
