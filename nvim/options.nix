@@ -9,5 +9,9 @@
       expandtab = true;
       smoothscroll = true;
     };
+    withNodeJs = false;
+    withPython3 = false;
+    withRuby = false;
+    preventJunkFiles = true;
   };
 }
