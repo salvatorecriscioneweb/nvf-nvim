@@ -3,7 +3,8 @@
     theme = {
       enable = true;
       name = "oxocarbon";
-      style = "light";
+      style = "dark";
+      transparent = true;
     };
   };
 }

@@ -39,5 +39,19 @@
       action = ":qa<CR>";
       desc = " Quit";
     }
+    {
+      key = "<leader>ff";
+      mode = ["n"];
+      silent = true;
+      action = ":FzfLua git_files<CR>";
+      desc = " Search File by name";
+    }
+    {
+      key = "<leader>fg";
+      mode = ["n"];
+      silent = true;
+      action = ":FzfLua live_grep<CR>";
+      desc = " Search File by content";
+    }
   ];
 }
