@@ -3,7 +3,7 @@
     autocomplete.blink-cmp = {
       enable = true;
       mappings = {
-        next = "<CR>";
+        next = "]";
         confirm = "<Tab>";
       };
       setupOpts = {
