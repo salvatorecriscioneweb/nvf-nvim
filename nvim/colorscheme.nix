@@ -2,9 +2,9 @@
   config.vim = {
     theme = {
       enable = true;
-      name = "oxocarbon";
+      name = "gruvbox";
       style = "dark";
-      transparent = true;
+      # transparent = true;
     };
   };
 }
