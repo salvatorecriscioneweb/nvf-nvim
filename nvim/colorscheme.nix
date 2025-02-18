@@ -2,7 +2,7 @@
   config.vim = {
     theme = {
       enable = true;
-      name = "gruvbox";
+      name = "onedark";
       style = "dark";
       # transparent = true;
     };
