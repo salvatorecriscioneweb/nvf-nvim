@@ -2,6 +2,7 @@
   vim.filetree = {
     nvimTree = {
       enable = true;
+      openOnSetup = false;
       setupOpts = {
         disable_netrw = true;
         hijack_cursor = true;
@@ -13,7 +14,7 @@
           update_root = false;
         };
         view = {
-          width = 25;
+          width = 30;
           preserve_window_proportions = true;
         };
         renderer = {

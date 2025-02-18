@@ -2,7 +2,7 @@
   config.vim = {
     theme = {
       enable = true;
-      name = "onedark";
+      name = "nord";
       style = "dark";
       # transparent = true;
     };

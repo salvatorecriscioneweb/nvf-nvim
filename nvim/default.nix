@@ -1,10 +1,12 @@
 {
   imports = [
+    # general
     ./general.nix
     ./options.nix
     ./colorscheme.nix
     ./keymaps.nix
     ./languages.nix
+    ./editor.nix
 
     # Plugins
     ./plugins/leap.nix
@@ -14,8 +16,8 @@
     ./plugins/lualine.nix
     ./plugins/fzf-lua.nix
     ./plugins/lazygit.nix
-    ./plugins/nvim-autopairs.nix
     ./plugins/nvim-tree.nix
     ./plugins/blink-cmp.nix
+    ./plugins/mini-pairs.nix
   ];
 }
