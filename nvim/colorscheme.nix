@@ -2,9 +2,9 @@
   config.vim = {
     theme = {
       enable = true;
-      name = "nord";
-      style = "dark";
-      # transparent = true;
+      name = "catppuccin";
+      style = "latte";
+      transparent = true;
     };
   };
 }
