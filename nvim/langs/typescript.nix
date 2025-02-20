@@ -3,10 +3,9 @@
     ts = {
       enable = true;
       treesitter.enable = true;
+      lsp.enable = true;
       format = {
-        enable = true;
-        type = "biome";
-        package = pkgs.biome;
+        enable = false;
       };
       extraDiagnostics.enable = false;
     };

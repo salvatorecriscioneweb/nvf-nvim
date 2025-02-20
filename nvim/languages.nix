@@ -1,6 +1,4 @@
 {pkgs, ...}: {
-  config.vim.formatter.conform-nvim.enable = true;
-
   imports = [
     ./langs/elixir.nix
     ./langs/nix.nix
@@ -16,11 +14,21 @@
       enableLSP = true;
       enableFormat = true;
       enableTreesitter = true;
-      enableExtraDiagnostics = true;
+    };
+
+    formatter.conform-nvim = {
+      enable = true;
+      setupOpts = {
+        formatters.biome.require_cwd = true;
+        formatters_by_ft = {
+          typescript = ["biome"];
+          javascript = ["biome"];
+        };
+      };
     };
 
     treesitter = {
-      context.enable = true;
+      # context.enable = true;
       fold = true;
 
       grammars = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
