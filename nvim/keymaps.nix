@@ -47,7 +47,7 @@
       desc = " Search File by name";
     }
     {
-      key = "<leader>fg";
+      key = "<leader>sf";
       mode = ["n"];
       silent = true;
       action = ":FzfLua live_grep<CR>";
