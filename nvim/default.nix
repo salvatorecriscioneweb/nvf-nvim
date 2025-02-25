@@ -18,7 +18,7 @@
     ./plugins/nvim-tree.nix
     ./plugins/blink-cmp.nix
     ./plugins/mini-pairs.nix
-    # ./plugins/toggleterm.nix
-    # ./plugins/lazygit.nix
+    ./plugins/toggleterm.nix
+    ./plugins/lazygit.nix
   ];
 }

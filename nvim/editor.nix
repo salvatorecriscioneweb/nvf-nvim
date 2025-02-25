@@ -18,7 +18,6 @@
     ui = {
       borders.enable = true;
       colorizer.enable = true;
-      modes-nvim.enable = true;
       breadcrumbs.enable = false;
       illuminate.enable = true;
     };

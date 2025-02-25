@@ -24,6 +24,13 @@
       action = "<cmd>w<cr><esc>";
       desc = " Save file";
     }
+    {
+      key = "<leader>ww";
+      mode = ["i" "x" "n" "s"];
+      silent = true;
+      action = "<cmd>w<cr><esc>";
+      desc = " Save file";
+    }
     # Plugins
     {
       key = "<leader>e";
@@ -43,7 +50,7 @@
       key = "<leader>ff";
       mode = ["n"];
       silent = true;
-      action = ":FzfLua git_files<CR>";
+      action = ":FzfLua files<CR>";
       desc = " Search File by name";
     }
     {
