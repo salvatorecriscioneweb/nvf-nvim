@@ -4,8 +4,9 @@
     elixir = {
       enable = true;
       format.enable = true;
-      elixir-tools.enable = true;
       treesitter.enable = true;
+      elixir-tools.enable = false;
+      lsp.enable = false;
     };
   };
 }

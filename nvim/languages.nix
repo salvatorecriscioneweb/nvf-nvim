@@ -2,10 +2,9 @@
   imports = [
     ./langs/elixir.nix
     ./langs/nix.nix
-    # ./langs/markdown.nix
     ./langs/typescript.nix
     ./langs/clang.nix
-    ./langs/rust.nix
+    ./langs/lua.nix
   ];
 
   # Common

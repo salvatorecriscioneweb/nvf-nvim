@@ -13,7 +13,7 @@
       };
     };
 
-    tabline.nvimBufferline.enable = true;
+    # tabline.nvimBufferline.enable = true;
 
     ui = {
       borders.enable = true;

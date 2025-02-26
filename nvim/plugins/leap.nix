@@ -3,7 +3,7 @@
     motion = {
       hop.enable = false;
       leap.enable = true;
-      precognition.enable = false;
+      precognition.enable = true;
     };
   };
 }
