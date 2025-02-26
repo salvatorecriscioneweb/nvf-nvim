@@ -3,8 +3,8 @@
     theme = {
       enable = true;
       name = "catppuccin";
-      style = "latte";
-      transparent = true;
+      style = "frappe";
+      # transparent = true;
     };
   };
 }
